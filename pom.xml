@@ -441,11 +441,7 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <!-- Run these plugins by default -->
-            <plugin>
-                <groupId>com.rodiontsev.maven.plugins</groupId>
-                <artifactId>build-info-maven-plugin</artifactId>
-            </plugin>
+            <!-- Run these plugins by default both when building this parent pom and the child -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
