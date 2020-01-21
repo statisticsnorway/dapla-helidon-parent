@@ -88,6 +88,11 @@
                 <version>${helidon.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.helidon.webserver</groupId>
+                <artifactId>helidon-webserver-access-log</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>io.helidon.config</groupId>
                 <artifactId>helidon-config-yaml</artifactId>
                 <version>${helidon.version}</version>
