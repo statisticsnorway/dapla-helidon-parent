@@ -69,6 +69,28 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>io.helidon.tracing</groupId>
+                <artifactId>helidon-tracing</artifactId>
+                <version>${helidon.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javax.annotation</groupId>
+                        <artifactId>javax.annotation-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.tracing</groupId>
+                <artifactId>helidon-tracing-jaeger</artifactId>
+                <version>${helidon.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-jdk14</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
                 <groupId>io.helidon.grpc</groupId>
                 <artifactId>helidon-grpc-server</artifactId>
                 <version>${helidon.version}</version>
