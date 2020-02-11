@@ -6,13 +6,13 @@
     <parent>
         <groupId>no.ssb.dapla</groupId>
         <artifactId>bom</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>parent</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>1</version>
     <packaging>pom</packaging>
 
     <properties>
