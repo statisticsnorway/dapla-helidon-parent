@@ -6,13 +6,13 @@
     <parent>
         <groupId>no.ssb.dapla</groupId>
         <artifactId>bom</artifactId>
-        <version>2</version>
+        <version>3</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>parent</artifactId>
-    <version>2</version>
+    <version>3</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -141,7 +141,7 @@
             <dependency>
                 <groupId>com.google.cloud</groupId>
                 <artifactId>google-cloud-bigtable</artifactId>
-                <version>1.9.1</version>
+                <version>1.10.0</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>jsr305</artifactId>
@@ -204,7 +204,7 @@
             <dependency>
                 <groupId>com.google.cloud</groupId>
                 <artifactId>google-cloud-pubsub</artifactId>
-                <version>1.102.1</version>
+                <version>1.103.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.annotation</groupId>

@@ -12,7 +12,7 @@
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>bom</artifactId>
-    <version>2</version>
+    <version>3</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -70,16 +70,6 @@
                 <version>0.3-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>no.ssb.dapla.notes</groupId>
-                <artifactId>dapla-notes-protobuf</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>no.ssb.dapla.spark</groupId>
-                <artifactId>dapla-spark-protobuf</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
                 <groupId>no.ssb.dapla.auth.dataset</groupId>
                 <artifactId>dapla-auth-dataset-protobuf</artifactId>
                 <version>0.2-SNAPSHOT</version>
@@ -87,7 +77,7 @@
             <dependency>
                 <groupId>no.ssb.dapla.data</groupId>
                 <artifactId>data-access-protobuf</artifactId>
-                <version>0.1-SNAPSHOT</version>
+                <version>0.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>no.ssb.dapla</groupId>
