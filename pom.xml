@@ -12,7 +12,7 @@
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>bom</artifactId>
-    <version>7</version>
+    <version>8</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -218,6 +218,15 @@
                 <groupId>com.google.cloud</groupId>
                 <artifactId>google-cloud-pubsub</artifactId>
                 <version>1.103.0</version>
+            </dependency>
+
+            <!--                      -->
+            <!-- Google Cloud Storage -->
+            <!--                      -->
+            <dependency>
+                <groupId>com.google.cloud</groupId>
+                <artifactId>google-cloud-storage</artifactId>
+                <version>1.104.0</version>
             </dependency>
 
             <!--         -->

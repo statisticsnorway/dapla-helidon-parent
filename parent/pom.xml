@@ -6,13 +6,13 @@
     <parent>
         <groupId>no.ssb.dapla</groupId>
         <artifactId>bom</artifactId>
-        <version>7</version>
+        <version>8</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>parent</artifactId>
-    <version>7</version>
+    <version>8</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -264,6 +264,27 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+
+            <!--                      -->
+            <!-- Google Cloud Storage -->
+            <!--                      -->
+            <dependency>
+                <groupId>com.google.cloud</groupId>
+                <artifactId>google-cloud-storage</artifactId>
+                <version>1.104.0</version>
+                <exclusions>
+                    <exclusion>
+                        <!-- findbugs jsr305 conflicts with javax.annotation in a JPMS split-package issue -->
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.google.api.grpc</groupId>
+                        <artifactId>proto-google-common-protos</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
