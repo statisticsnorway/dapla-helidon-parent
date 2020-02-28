@@ -6,13 +6,13 @@
     <parent>
         <groupId>no.ssb.dapla</groupId>
         <artifactId>bom</artifactId>
-        <version>11</version>
+        <version>12</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>parent</artifactId>
-    <version>11</version>
+    <version>12</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -120,12 +120,12 @@
             <dependency>
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java</artifactId>
-                <version>3.11.1</version>
+                <version>3.11.4</version>
             </dependency>
             <dependency>
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java-util</artifactId>
-                <version>3.11.1</version>
+                <version>3.11.4</version>
                 <exclusions>
                     <exclusion>
                         <groupId>com.google.code.findbugs</groupId>
