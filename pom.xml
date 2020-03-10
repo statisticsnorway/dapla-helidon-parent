@@ -12,7 +12,7 @@
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>bom</artifactId>
-    <version>13</version>
+    <version>14</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -56,7 +56,7 @@
             <dependency>
                 <groupId>no.ssb.helidon</groupId>
                 <artifactId>helidon-testing</artifactId>
-                <version>0.3</version>
+                <version>0.4</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
