@@ -6,13 +6,13 @@
     <parent>
         <groupId>no.ssb.dapla</groupId>
         <artifactId>parent</artifactId>
-        <version>15</version>
+        <version>16</version>
         <relativePath>../parent</relativePath>
     </parent>
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>application</artifactId>
-    <version>15</version>
+    <version>16</version>
     <packaging>pom</packaging>
 
     <!-- default dependencies -->

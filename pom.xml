@@ -12,7 +12,7 @@
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>bom</artifactId>
-    <version>15</version>
+    <version>16</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -72,7 +72,7 @@
             <dependency>
                 <groupId>no.ssb.dapla.auth.dataset</groupId>
                 <artifactId>dapla-auth-dataset-protobuf</artifactId>
-                <version>0.3</version>
+                <version>0.4</version>
             </dependency>
             <dependency>
                 <groupId>no.ssb.dapla.data</groupId>
