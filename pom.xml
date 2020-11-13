@@ -12,7 +12,7 @@
 
     <groupId>no.ssb.dapla</groupId>
     <artifactId>bom</artifactId>
-    <version>17</version>
+    <version>18-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
